@@ -1,0 +1,49 @@
+{
+    "admin": {
+      "username": "sl1taz",
+      "password": "1bbd482c80c472a9337c7b3cb3af8ef8",
+      "loginToken": "473f91a898ef93146fcc1733b2ff4f64",
+      "logs": [
+          {
+            "time": "2022-02-06T14:44:21.258Z",
+            "type": "SUCCESS",
+            "message": "Build Succeded!"
+          }
+        ],
+      "ipLog": []
+    },
+  "clients": [
+    
+    {
+      "clientID": "5bdd320355b3e6:",
+      "firstSeen": "2022-01-28T19:01:09.167Z",
+      "lastSeen": "2022-02-06T14:58:48.285Z",
+      "isOnline": false,
+      "dynamicData": {
+        "clientIP": "168.121.90.80",
+        "clientGeo": {
+          "range": [
+            2826525184,
+            2826525695
+          ],
+          "country": "BR",
+          "region": "MG",
+          "eu": "0",
+          "timezone": "America/Sao_Paulo",
+          "city": "Eugenopolis",
+          "ll": [
+            -21.0189,
+            -42.2183
+          ],
+          "metro": 0,
+          "area": 20
+        },
+        "device": {
+          "model": "moto g(6) play",
+          "manufacture": "motorola",
+          "version": "9"
+        }
+      }
+    }
+  ]
+}
