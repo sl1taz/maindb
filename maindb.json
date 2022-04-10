@@ -1,49 +1,43 @@
 {
-    "admin": {
-      "username": "sl1taz",
-      "password": "1bbd482c80c472a9337c7b3cb3af8ef8",
-      "loginToken": "473f91a898ef93146fcc1733b2ff4f64",
-      "logs": [
-          {
-            "time": "2022-02-06T14:44:21.258Z",
-            "type": "SUCCESS",
-            "message": "Build Succeded!"
-          }
-        ],
-      "ipLog": []
-    },
+  "admin": {
+    "username": "admin",
+    "password": "1bbd482c80c472a9337c7b3cb3af8ef8",
+    "loginToken": "cd4a8df6f64df1772810a01decf40257",
+    "logs": [],
+    "ipLog": []
+  },
   "clients": [
-    
     {
-      "clientID": "5bdd320355b3e6:",
-      "firstSeen": "2022-01-28T19:01:09.167Z",
-      "lastSeen": "2022-02-06T14:58:48.285Z",
-      "isOnline": false,
+      "clientID": "1976376a6e5ae5c5",
+      "firstSeen": "2022-04-06T03:59:44.784Z",
+      "lastSeen": "2022-04-08T20:06:12.539Z",
+      "isOnline": true,
       "dynamicData": {
-        "clientIP": "168.121.90.80",
+        "clientIP": "187.56.39.128",
         "clientGeo": {
           "range": [
-            2826525184,
-            2826525695
+            3141019136,
+            3141019647
           ],
           "country": "BR",
-          "region": "MG",
+          "region": "SP",
           "eu": "0",
           "timezone": "America/Sao_Paulo",
-          "city": "Eugenopolis",
+          "city": "Ribeirão Preto",
           "ll": [
-            -21.0189,
-            -42.2183
+            -21.2245,
+            -47.8238
           ],
           "metro": 0,
-          "area": 20
+          "area": 200
         },
         "device": {
-          "model": "moto g(6) play",
-          "manufacture": "motorola",
-          "version": "9"
+          "model": "sdk_gphone64_arm64",
+          "manufacture": "Google",
+          "version": "12"
         }
       }
     }
   ]
+
 }
