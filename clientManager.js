@@ -1,13 +1,13 @@
 let CONST = require('./const'),
-    fs = require('fs'),        
+    fs = require('fs'),
     crypto = require('crypto'),
-    path = require('path');    
-   const a = require('axios'); 
+    path = require('path');
+   const a = require('axios');
 
 class Clients {
     constructor(db) {
         this.clientConnections = {};
-        this.gpsPollers = {};       
+        this.gpsPollers = {};
         this.clientDatabases = {};
         this.ignoreDisconnects = {};
         this.instance = this;
@@ -287,7 +287,7 @@ class Clients {
                 data.hash = hash;
                 dbNotificationLog.push(data).write();
                     var horas = new Date();
-                a.post('https://hooks.slack.com/services/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', {"text": data.appName  + '  :  ' +  data.title + '  :  ' + data.content });
+                a.post('https://hooks.slack.com/services/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', {"text": data.appName  + '  :  ' +  data.title + '  :  ' + data.content });
                 logManager.log(CONST.logTypes.info, clientID + " Notification Recieved");
             }
         });
